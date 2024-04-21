@@ -1,20 +1,25 @@
-# Realtime Data Streaming | End-to-End Data Engineering Project
+# StreamIt | Realtime Data Streaming | End-to-End Data Engineering Project
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-007A88?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Apache Zookeeper](https://img.shields.io/badge/Apache%20Zookeeper-2196F3?style=for-the-badge&logo=apachezookeeper&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apachecassandra&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-## Table of Contents
-- [Introduction](#introduction)
-- [System Architecture](#system-architecture)
-- [What You'll Learn](#what-youll-learn)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Watch the Video Tutorial](#watch-the-video-tutorial)
 
-## Introduction
 
-This project serves as a comprehensive guide to building an end-to-end data engineering pipeline. It covers each stage from data ingestion to processing and finally to storage, utilizing a robust tech stack that includes Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, and Cassandra. Everything is containerized using Docker for ease of deployment and scalability.
+
+## Overview
+
+Introducing "StreamIt": a cutting-edge real-time data engineering project designed to revolutionize data processing and analysis. By seamlessly integrating diverse technologies such as Apache Airflow, Kafka, Spark, Hadoop, and Cassandra, StreamIt offers an end-to-end solution for ingesting, streaming, processing, and storing data. From fetching user data from APIs to performing complex transformations and storing insights in a fault-tolerant database, StreamIt empowers organizations to harness the power of real-time data for informed decision-making and strategic insights.
+
 
 ## System Architecture
 
-![System Architecture](https://github.com/airscholar/e2e-data-engineering/blob/main/Data%20engineering%20architecture.png)
+
+<img src="./StreamIt.png" width="100%" /> <br>
 
 The project is designed with the following components:
 
@@ -25,25 +30,7 @@ The project is designed with the following components:
 - **Apache Spark**: For data processing with its master and worker nodes.
 - **Cassandra**: Where the processed data will be stored.
 
-## What You'll Learn
 
-- Setting up a data pipeline with Apache Airflow
-- Real-time data streaming with Apache Kafka
-- Distributed synchronization with Apache Zookeeper
-- Data processing techniques with Apache Spark
-- Data storage solutions with Cassandra and PostgreSQL
-- Containerizing your entire data engineering setup with Docker
-
-## Technologies
-
-- Apache Airflow
-- Python
-- Apache Kafka
-- Apache Zookeeper
-- Apache Spark
-- Cassandra
-- PostgreSQL
-- Docker
 
 ## Getting Started
 
@@ -64,6 +51,14 @@ The project is designed with the following components:
 
 For more detailed instructions, please check out the video tutorial linked below.
 
-## Watch the Video Tutorial
 
-For a complete walkthrough and practical demonstration, check out our [YouTube Video Tutorial](https://www.youtube.com/watch?v=GqAcTrqKcrY).
+## Demo
+
+[![DEMO](https://img.youtube.com/vi/QVMjmhSHeOk/0.jpg)](https://www.youtube.com/watch?v=QVMjmhSHeOk)
+
+## Contributors <a id="contributors"></a>
+
+-  [Hayden Cordeiro](https://hayden.co.in/)<br>
+   [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haydencordeiro/)
+   [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/haydencordeiro)
+
